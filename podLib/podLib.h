@@ -1,13 +1,13 @@
 //
-//  PodLib.m
-//  PodLib
+//  podLib.h
+//  podLib
 //
 //  Created by Aran Mulholland on 30/03/2014.
 //  Copyright (c) 2014 Aran Mulholland. All rights reserved.
 //
 
-#import "PodLib.h"
+#import <Foundation/Foundation.h>
 
-@implementation PodLib
+@interface podLib : NSObject
 
 @end

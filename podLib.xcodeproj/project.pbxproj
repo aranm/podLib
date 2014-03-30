@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BFB5E818E8203200B01371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BFB5E718E8203200B01371 /* Foundation.framework */; };
+		23BFB5ED18E8203200B01371 /* podLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23BFB5EC18E8203200B01371 /* podLib.h */; };
+		23BFB5EF18E8203200B01371 /* podLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BFB5EE18E8203200B01371 /* podLib.m */; };
+		23BFB5F618E8203200B01371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BFB5F518E8203200B01371 /* XCTest.framework */; };
+		23BFB5F718E8203200B01371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BFB5E718E8203200B01371 /* Foundation.framework */; };
+		23BFB5F918E8203200B01371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BFB5F818E8203200B01371 /* UIKit.framework */; };
+		23BFB5FC18E8203200B01371 /* libpodLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BFB5E418E8203200B01371 /* libpodLib.a */; };
+		23BFB60218E8203200B01371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BFB60018E8203200B01371 /* InfoPlist.strings */; };
+		23BFB60418E8203200B01371 /* podLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BFB60318E8203200B01371 /* podLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BFB5FA18E8203200B01371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BFB5DC18E8203200B01371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BFB5E318E8203200B01371;
+			remoteInfo = podLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23BFB5E218E8203200B01371 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				23BFB5ED18E8203200B01371 /* podLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23BFB5E418E8203200B01371 /* libpodLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpodLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BFB5E718E8203200B01371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23BFB5EB18E8203200B01371 /* podLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "podLib-Prefix.pch"; sourceTree = "<group>"; };
+		23BFB5EC18E8203200B01371 /* podLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podLib.h; sourceTree = "<group>"; };
+		23BFB5EE18E8203200B01371 /* podLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podLib.m; sourceTree = "<group>"; };
+		23BFB5F418E8203200B01371 /* podLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BFB5F518E8203200B01371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23BFB5F818E8203200B01371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		23BFB5FF18E8203200B01371 /* podLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "podLibTests-Info.plist"; sourceTree = "<group>"; };
+		23BFB60118E8203200B01371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23BFB60318E8203200B01371 /* podLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BFB5E118E8203200B01371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BFB5E818E8203200B01371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BFB5F118E8203200B01371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BFB5F618E8203200B01371 /* XCTest.framework in Frameworks */,
+				23BFB5F918E8203200B01371 /* UIKit.framework in Frameworks */,
+				23BFB5F718E8203200B01371 /* Foundation.framework in Frameworks */,
+				23BFB5FC18E8203200B01371 /* libpodLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BFB5DB18E8203200B01371 = {
+			isa = PBXGroup;
+			children = (
+				23BFB5E918E8203200B01371 /* podLib */,
+				23BFB5FD18E8203200B01371 /* podLibTests */,
+				23BFB5E618E8203200B01371 /* Frameworks */,
+				23BFB5E518E8203200B01371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BFB5E518E8203200B01371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB5E418E8203200B01371 /* libpodLib.a */,
+				23BFB5F418E8203200B01371 /* podLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BFB5E618E8203200B01371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB5E718E8203200B01371 /* Foundation.framework */,
+				23BFB5F518E8203200B01371 /* XCTest.framework */,
+				23BFB5F818E8203200B01371 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23BFB5E918E8203200B01371 /* podLib */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB5EC18E8203200B01371 /* podLib.h */,
+				23BFB5EE18E8203200B01371 /* podLib.m */,
+				23BFB5EA18E8203200B01371 /* Supporting Files */,
+			);
+			path = podLib;
+			sourceTree = "<group>";
+		};
+		23BFB5EA18E8203200B01371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB5EB18E8203200B01371 /* podLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23BFB5FD18E8203200B01371 /* podLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB60318E8203200B01371 /* podLibTests.m */,
+				23BFB5FE18E8203200B01371 /* Supporting Files */,
+			);
+			path = podLibTests;
+			sourceTree = "<group>";
+		};
+		23BFB5FE18E8203200B01371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BFB5FF18E8203200B01371 /* podLibTests-Info.plist */,
+				23BFB60018E8203200B01371 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BFB5E318E8203200B01371 /* podLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BFB60718E8203200B01371 /* Build configuration list for PBXNativeTarget "podLib" */;
+			buildPhases = (
+				23BFB5E018E8203200B01371 /* Sources */,
+				23BFB5E118E8203200B01371 /* Frameworks */,
+				23BFB5E218E8203200B01371 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = podLib;
+			productName = podLib;
+			productReference = 23BFB5E418E8203200B01371 /* libpodLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		23BFB5F318E8203200B01371 /* podLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BFB60A18E8203200B01371 /* Build configuration list for PBXNativeTarget "podLibTests" */;
+			buildPhases = (
+				23BFB5F018E8203200B01371 /* Sources */,
+				23BFB5F118E8203200B01371 /* Frameworks */,
+				23BFB5F218E8203200B01371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BFB5FB18E8203200B01371 /* PBXTargetDependency */,
+			);
+			name = podLibTests;
+			productName = podLibTests;
+			productReference = 23BFB5F418E8203200B01371 /* podLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BFB5DC18E8203200B01371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aran Mulholland";
+			};
+			buildConfigurationList = 23BFB5DF18E8203200B01371 /* Build configuration list for PBXProject "podLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23BFB5DB18E8203200B01371;
+			productRefGroup = 23BFB5E518E8203200B01371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BFB5E318E8203200B01371 /* podLib */,
+				23BFB5F318E8203200B01371 /* podLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BFB5F218E8203200B01371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BFB60218E8203200B01371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BFB5E018E8203200B01371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BFB5EF18E8203200B01371 /* podLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BFB5F018E8203200B01371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BFB60418E8203200B01371 /* podLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BFB5FB18E8203200B01371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BFB5E318E8203200B01371 /* podLib */;
+			targetProxy = 23BFB5FA18E8203200B01371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23BFB60018E8203200B01371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BFB60118E8203200B01371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BFB60518E8203200B01371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23BFB60618E8203200B01371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23BFB60818E8203200B01371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/podLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "podLib/podLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		23BFB60918E8203200B01371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/podLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "podLib/podLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23BFB60B18E8203200B01371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "podLib/podLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "podLibTests/podLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23BFB60C18E8203200B01371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "podLib/podLib-Prefix.pch";
+				INFOPLIST_FILE = "podLibTests/podLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BFB5DF18E8203200B01371 /* Build configuration list for PBXProject "podLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BFB60518E8203200B01371 /* Debug */,
+				23BFB60618E8203200B01371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BFB60718E8203200B01371 /* Build configuration list for PBXNativeTarget "podLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BFB60818E8203200B01371 /* Debug */,
+				23BFB60918E8203200B01371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23BFB60A18E8203200B01371 /* Build configuration list for PBXNativeTarget "podLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BFB60B18E8203200B01371 /* Debug */,
+				23BFB60C18E8203200B01371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BFB5DC18E8203200B01371 /* Project object */;
+}

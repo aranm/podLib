@@ -1,6 +1,6 @@
 //
-//  PodLibTests.m
-//  PodLibTests
+//  podLibTests.m
+//  podLibTests
 //
 //  Created by Aran Mulholland on 30/03/2014.
 //  Copyright (c) 2014 Aran Mulholland. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface PodLibTests : XCTestCase
+@interface podLibTests : XCTestCase
 
 @end
 
-@implementation PodLibTests
+@implementation podLibTests
 
 - (void)setUp
 {

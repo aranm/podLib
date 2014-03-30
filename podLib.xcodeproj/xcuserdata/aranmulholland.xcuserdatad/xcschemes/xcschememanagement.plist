@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PodLib.xcscheme</key>
+		<key>podLib.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>23803B6218E81CE9005829BC</key>
+		<key>23BFB5E318E8203200B01371</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>23803B7218E81CE9005829BC</key>
+		<key>23BFB5F318E8203200B01371</key>
 		<dict>
 			<key>primary</key>
 			<true/>

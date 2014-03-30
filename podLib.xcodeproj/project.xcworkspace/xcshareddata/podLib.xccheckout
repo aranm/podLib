@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9CD5A937-A165-44E9-A98D-91F3E12B5A3F</string>
+	<string>0C0B3E1A-BCD4-4D06-991F-40A3726138BF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PodLib</string>
+	<string>podLib</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D1DCB1C-C295-417F-AD49-AD4E10FD1B3E</key>
 		<string>https://github.com/aranm/podLib.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PodLib/PodLib.xcodeproj/project.xcworkspace</string>
+	<string>podLib/podLib.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D1DCB1C-C295-417F-AD49-AD4E10FD1B3E</key>
